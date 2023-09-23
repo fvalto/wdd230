@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Mooli&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Mooli', sans-serif;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #273e63;
+    color: white;
+    padding: 20px;
+}
+
+img {
+    width: 100%;
+    padding: 0.5rem;
+}
+
+h3 {
+    font-size: 1.5rem;
+    line-height: 3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #273e63;
+    padding: 10px 0;
+    color: #ffffff;
+}
+
+main {
+    max-width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 0.8rem;
+    padding: 2rem;
+}
+
+.card {
+    margin: 0.5rem;
+    border: 2px solid #022454;
+    border-radius: 1rem;
+    padding: 1rem;
+    padding-top: 0;
+    background-color: #ebf6ee;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 2rem
+}
+
+.card h2 {
+    font-family: 'Mooli', sans-serif;
+    font-size: 2rem;
+    background-color: #276328;
+    margin: 0;
+    padding: 1rem;
+    color: white;
+    border-top-left-radius: 0.8rem;
+    border-top-right-radius: 0.8rem;
+    margin-left: -1rem;
+    margin-right: -1rem;
+    text-align: center;
+}
+
+/* Tablet Views */
+@media screen and (min-width: 37.5em) {
+    main {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    main section:nth-child(2) {
+        display: block;
+    }
+
+    main section:nth-child(3) {
+       grid-column: span 2;
+    }
+
+    main section picture {
+       display: block;
+    }
+}
+
+/* Desktop View */
+@media screen and (min-width: 60em) {
+    main {
+       grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    main section:nth-child(3) {
+       grid-column: span 1;
+    }
+}
