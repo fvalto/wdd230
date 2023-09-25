@@ -85,3 +85,9 @@ footer {
     padding: 10px 0;
     color: #ffffff;
 }
+
+@media screen and (min-width: 600px) {
+    nav {
+        display: block
+    }
+}
