@@ -1,8 +1,6 @@
 @media screen and (min-width: 650px) {
     nav {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-evenly;
+        margin: auto;
     }
 
     main {
@@ -13,5 +11,30 @@
     main h2 {
         grid-column: span 2;
         text-align: center;
+    }
+
+    #menu {
+		display: none; /* hide hamburger button */
+	}
+
+    .navigation {
+        display: flex;
+		flex-direction: row;
+        justify-content: space-evenly;
+	}
+    
+	.navigation li {
+        display: flex;
+	}
+
+    .active::before {
+        color: #3498db;
+        content: "👉 ";
+    }
+
+    .gmap {
+        grid-column: span 2;
+        height: 100%;
+        width: 100%;
     }
 }
