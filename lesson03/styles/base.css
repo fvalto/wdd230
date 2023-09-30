@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap');
+
+body {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 4em;
+    font-size: 18px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    max-width: 95%;
+    height: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Bebas Neue', sans-serif;
+    color: #546a7b;
+}
+
+h2 {
+    text-align: center;
+}
+
+hr {
+    height: 3px;
+    margin: 35px 0;
+    background: #546a7b;
+}
+
+header {
+    padding: 1em;
+    text-align: center;
+    color: var(--headline-color-on-color);
+    background-color: var(--paragraph-background-color);
+}
+
+p, li {
+    font-family: 'Ubuntu', sans-serif;
+    color: #393d3f;
+    padding: 1em;
+    list-style: none;
+}
+
+.colors {
+    width: 100%;
+    min-width: 350px;
+    margin: 30px auto;
+    text-align: center;
+}
+
+.colors th {
+    background-color: #999;
+}
+
+.colors td{
+    width: 25%;
+    height: 3em;
+}
+
+.background {
+    background-color: #f1f1ef;
+}
+
+.text {
+    background-color: #393d3f;
+}
+
+.cards {
+    background-color: #62929e;
+}
+
+.variation{
+    background-color: #546a7b;
+}
+
+p.colored {
+    background-color: #f1f1ef;
+    color: #546a7b;
+}
+
+nav {
+    font-family: 'Bebas Neue', sans-serif;
+    background-color: #546a7b;
+    border-radius: 10px;
+    line-height: 3em;
+    text-align: center;
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+nav a {
+    padding:1em;
+    min-width: 120px;
+    text-decoration: none;
+    padding: 10px;
+    color: white;
+}
+
+nav a:hover {
+    color: #393d3f;
+    background-color: #62929e;
+    border-radius: 10px;
+}
+
+.wireframes {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    background-color: #62929e;
+    margin: 10px;
+    padding-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container h2 {
+    color: #393d3f;
+}
+
+@media screen and (min-width: 850px) {
+    .wireframes {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
