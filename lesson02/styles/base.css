@@ -92,16 +92,16 @@ main {
 
 /* Desktop View */
 @media screen and (min-width: 60em) {
-    /* main {
+    main {
        grid-template-columns: 1fr 1fr 1fr;
     }
 
     main section:nth-child(3) {
        grid-column: span 1;
-    } */
+    }
     main {
-        /* display: flex; */
-        /* flex-direction: row; */
-        /* justify-content: center; */
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
     }
 }
