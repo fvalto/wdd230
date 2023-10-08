@@ -20,7 +20,7 @@
     .navigation {
         display: flex;
 		flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: end;
 	}
     
 	.navigation li {

@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Ubuntu&display=swap');
+
+body {
+    background-color: #f1f1ef;
+}
+
+header {
+    background-color: #62929e;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    color: #393d3f;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+#logo {
+    max-width: 35%;
+    height: auto;
+    padding-bottom: 1%;
+    margin-left: 0;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.1em;
+    list-style: none;
+    margin-top: 4rem;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #f1f1ef;
+    padding: 0.2em;
+}
+
+.navigation a:visited {
+    text-decoration: none;
+    color: #f1f1ef
+}
+
+.navigation a:hover {
+    color: #393d3f;
+    font-size: 1.2em;
+    transition: 0.5s;
+}
+
+.hero-image {
+    max-width: 100%;
+    height: auto;
+    margin: 0;
+}
+
+.hero-image img {
+    width: 100%;
+}
+
+.button {
+    align-items: center;
+    background-color: #393d3f;
+    border-radius: 12px;
+    color: #f1f1ef;
+    cursor: pointer;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    justify-content: center;
+    margin: 0;
+    padding: 1rem 1.2rem;
+    text-align: center;
+    border: 0;
+}
+
+.button:hover {
+  box-shadow: #121212 0 0 0 3px, transparent 0 0 0 0;
+  background-color: #f1f1ef;
+  color: #393d3f;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid #cfe6e9;
+    padding: 3px 7px 6px;
+    background-color: #c5eef3;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "⤴";
+}
+
+.navigation li {
+    display: none;
+}
+
+.open li {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.open li a {
+    display: flex;
+    justify-content: center;
+}
