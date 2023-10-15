@@ -15,13 +15,16 @@
         <link rel="stylesheet" href="styles/base.css">
         <link rel="stylesheet" href="styles/medium.css">
         <link rel="stylesheet" href="styles/larger.css">
-</head>
+    </head>
 <body>
     <header>
         <a href="#"><img id="logo" src="images/logo.png" alt="AllStar-logo"></a>
         <h1>Talca's Chamber of Commerce</h1>
         <nav>
             <button id="menu" title="Menu"></button>
+            <div id="switch">
+                🌑
+            </div>
             <ul class="navigation">
                 <li><a href="#">Home</a></li>
                 <li><a href="https://fvalto.github.io/wdd230/chamber/discover.html">Discover</a></li>
@@ -32,17 +35,39 @@
     </header>
     <main>
         <div class="hero-image">
+            <h1 class="hero-text">Grab the only opporunity you need to grow and move forward!</h1>
             <img src="images/hero-image.jpg" alt="hero image">
+            <button class="button">Join Now!</button>
         </div>
-        <button class="button">Join Now!</button>
-        <div class="current-events">
-
-        </div>
-        <div class="weather">
-
+            <div id="events-weather">
+            <div class="current-events">
+                <h1>Events</h1>
+            </div>
+            <div class="weather">
+                <h1>Weather</h1>
+            </div>
         </div>
         <div class="member-spotlights">
-
+            <div class="card">
+                <img class="spotlight-image" src="" alt="">
+                <h6 class="spotlight-heading"></h6>
+                <p class="spotlight-text"></p>
+            </div>
+            <div class="card">
+                <img class="spotlight-image" src="" alt="">
+                <h6 class="spotlight-heading"></h6>
+                <p class="spotlight-text"></p>
+            </div>
+            <div class="card">
+                <img class="spotlight-image" src="" alt="">
+                <h6 class="spotlight-heading"></h6>
+                <p class="spotlight-text"></p>
+            </div>
+            <div class="card">
+                <img class="spotlight-image" src="" alt="">
+                <h6 class="spotlight-heading"></h6>
+                <p class="spotlight-text"></p>
+            </div>
         </div>
     </main>
     <footer>
@@ -59,5 +84,6 @@
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburguermenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
 </body>
 </html>

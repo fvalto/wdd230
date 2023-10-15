@@ -1,0 +1,64 @@
+@media screen and (min-width: 850px) {
+    h1 {
+        font-size: 3em;
+    }
+    
+    .hero-image {
+        flex-direction: row;
+    }
+
+    .hero-text {
+        font-size: 2.5em;
+    }
+
+    .button {
+        top: 15%; 
+        left: 85%; 
+    }
+
+    #events-weather {
+        flex-direction: row;
+    }
+
+    .current-events h1, .weather h1 {
+        font-size: 1.8em;
+    }
+
+    .member-spotlights {
+        color: #f1f1ef;
+        display: grid; 
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+    }
+    
+    .card {
+        grid-row: span 1;
+        grid-column: span 1;
+        background-color: #ebf7ff;
+        border: 2px solid black;
+        margin: 2em;
+        box-shadow: 0.2em 0.2em 0.2em #003357;
+    }
+    
+    .member-spotlights .card:first-child {
+        grid-row: span 3;
+    }
+
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+
+    .social {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .social img {
+        margin: 1em;
+        height: 4em;
+        width: 4em;
+    }
+}

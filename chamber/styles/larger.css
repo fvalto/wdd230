@@ -1,0 +1,27 @@
+@media screen and (min-width: 1200px) {
+    nav {
+        margin: auto;
+    }
+
+    #menu {
+		display: none;
+	}
+
+    .navigation {
+        display: flex;
+        flex-direction: row;
+	}
+    
+	.navigation li {
+        display: flex;
+        justify-content: space-around;
+	}
+
+    .hero-text {
+        font-size: 3.5em;
+    }
+
+    .button {
+        padding: 1em 5em;
+    }
+}
