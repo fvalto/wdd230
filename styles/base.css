@@ -22,7 +22,12 @@ h1 {
     font-family: 'Mooli', Arial, Helvetica, sans-serif;
 }
 
-img {
+main h2 {
+    text-align: center;
+    grid-column: span 2;
+}
+
+header img {
     max-width: 50%;
     padding-right: 20px;
 }
@@ -32,15 +37,49 @@ nav {
 }
 
 main {
-    max-width: 800px;
+    max-width: 960px;
     margin: 0 auto;
     padding: 20px;
     display: grid;
     grid-template-columns: 1fr;
+    grid-template-rows: auto auto 1fr 1fr;
     gap: 20px;
     background-color: #ffffff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.hero {
+	position: relative;
+	grid-column: span 2;
+    text-align: center;
+    width: 100%;
+    height: auto;
+}
+
+.hero img {
+	width: 100%;
+	max-width: 100%;
+    height: auto;
+
+}
+
+.label {
+    background-color: #276328;
+    position: absolute;
+    top: 10px;
+	left: 10px;
+    border: 1px solid rgba(0,0,0,.75);
+	padding: .8rem;
+    opacity: 0.8;
+}
+
+.label p {
+    margin: 0;
+	padding: .1rem;
+	font-weight: 700;
+	font-size: 1rem;
+	font-family:"Mooli", serif;
 }
 
 h3 {
@@ -131,4 +170,9 @@ footer {
 .gmap iframe {
     height: 100%;
     width: 100%;
+    grid-column: span 2;
+}
+
+.gmap {
+    grid-column: span 2;
 }

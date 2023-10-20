@@ -37,4 +37,9 @@
         height: 100%;
         width: 100%;
     }
+
+    .label p {
+        font-size: 2rem;
+
+    }
 }
