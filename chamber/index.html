@@ -18,7 +18,7 @@
     </head>
 <body>
     <header>
-        <a href="#"><img id="logo" src="images/logo.png" alt="AllStar-logo"></a>
+        <a href="#"><img id="logo" src="images/logo.webp" alt="AllStar-logo"></a>
         <h1>Talca's Chamber of Commerce</h1>
         <nav>
             <button id="menu" title="Menu"></button>
@@ -35,16 +35,26 @@
     </header>
     <main>
         <div class="hero-image">
-            <h1 class="hero-text">Grab the only opporunity you need to grow and move forward!</h1>
-            <img src="images/hero-image.jpg" alt="hero image">
+            <h2 class="hero-text">Grab the only opportunity you need to grow and move forward!</h2>
+            <picture class="hero-pic">
+                <source srcset="images/wdd230-org-small.webp" media="(max-width: 850px)">
+                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1200px)">
+                <img src="images/wdd230-org-large.webp" alt="hero image">
+            </picture>
             <button class="button">Join Now!</button>
         </div>
             <div id="events-weather">
             <div class="current-events">
-                <h1>Events</h1>
+                <h3>Events</h3>
             </div>
             <div class="weather">
-                <h1>Weather</h1>
+                <h3>Weather</h3>
+                <p><b>Temperature: </b><span id="temperature"></span></p>
+                <input type="number" id="temperature-value">
+                <p><b>Wind speed: </b><span id="wind-speed"></span></p>
+                <input type="number" id="wind-speed-value">
+                <p><b>Wind chill:</b></p><br>
+                <p id="wind-chill"></p>
             </div>
         </div>
         <div class="member-spotlights">
@@ -77,13 +87,14 @@
             <p>Last modification: <span id="lastModified"></span></p>
         </div>
         <div class="social">
-            <img src="images/facebook.png" alt="facebook icon">
-            <img src="images/twitter.png" alt="twitter icon">
-            <img src="images/github.png" alt="github icon">
+            <img src="images/facebook.webp" alt="facebook icon">
+            <img src="images/twitter.webp" alt="twitter icon">
+            <img src="images/github.webp" alt="github icon">
         </div>
     </footer>
     <script src="scripts/getdates.js"></script>
     <script src="scripts/hamburguermenu.js"></script>
     <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
 </body>
 </html>
