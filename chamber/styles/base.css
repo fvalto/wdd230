@@ -128,7 +128,17 @@ h1 {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    
+}
+
+input {
+    text-align: right;
+    max-width: 50px;
+}
+
+#wind-chill {
+    font-size: 1.4em;
+    color: #005c9d;
+    margin: 0;
 }
 
 .current-events, .weather {
