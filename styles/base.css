@@ -98,7 +98,7 @@ h3 {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
-.card :nth-child(4) {
+#information :nth-child(4) {
     text-align: center;
 }
 
