@@ -222,3 +222,61 @@ footer {
     display: flex;
     justify-content: center;
 }
+
+/* -- Discover in Week 7 -- */
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.grid-side-bar {
+    background-color: #005c9d;
+}
+
+h6 {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+#calendar {
+    position: relative;
+    width: auto;
+    padding-bottom: 75%;
+    height: 0;
+    overflow: hidden;
+}
+
+#calendar iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+}
+
+.grid-main-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gallery img {
+    max-width: 800px;
+    width: 100%;
+    height: auto;
+    margin-top: 2rem;
+}
+
+.gallery img:hover {
+    border-radius: 15px 150px;
+    transition: 1s;
+    box-shadow: 50px -10px #005c9d
+}
+
+.dates {
+    grid-column: span 2;
+    text-align: center;
+    font-size: 1.5rem;
+}

@@ -61,4 +61,12 @@
         height: 4em;
         width: 4em;
     }
+
+    /* -- Discover in Week 7 -- */
+
+    main {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+    }
+
 }

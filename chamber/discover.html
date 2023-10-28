@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AllStar - Talca's Chamber of Commerce Home Page</title>
+        <meta name="author" content="Fabián Esteban Valdés Torrealba">
+        <meta name="description" content="Talca's Chamber of Commerce main page to join, publish, find, offer and promote commerce">
+        <link rel="icon" href="favicon.ico">
+        <meta property="og:title" content="AllStar Talca's Chamber of Commerce Home Page">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://i0.wp.com/tvmaulinos.com/wp-content/uploads/2017/11/plaza-armas-talca.jpg?fit=2390%2C1000&ssl=1">
+        <meta property="og:url" content="https://fvalto.github.io/wdd230/chamber/index.html">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/larger.css">
+    </head>
+<body>
+    <header>
+        <a href="#"><img id="logo" src="images/logo.webp" alt="AllStar-logo" loading="lazy"></a>
+        <h1>Talca's Chamber of Commerce</h1>
+        <nav>
+            <button id="menu" title="Menu"></button>
+            <div id="switch">
+                🌑
+            </div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="https://fvalto.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                <li><a href="https://fvalto.github.io/wdd230/chamber/directory.html">Directory </a></li>
+                <li><a href="https://fvalto.github.io/wdd230/chamber/join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="grid-side-bar">
+            <div class="card" id="demographics">
+                <h6>Talca's Demographics</h6>
+                <p><b>Population: </b>220.357</p>
+                <p><b>Main religion: </b>Catholic</p>
+            </div>
+            <div class="card" id="economy">
+                <h6>Economy</h6>
+                <p><b>Main activity: </b>Agronomy and vineyards</p>
+                <p><b>Other activities: </b>Industry: food production, wood, plastic, meat processor</p>
+            </div>
+            <div class="card" id="attractions">
+                <h6>Attractions</h6>
+                <li>Botanical garden of the University of Talca</li>
+                <li>Maule Wine Route</li>
+                <li>Main Square</li>
+                <li>Viewpoint "Cerro de la Virgen"</li>
+                <li>San Agustin's Cathedral</li>
+                <li>"Rio Claro" Park</li>
+                <li>Casino Plaza Maule</li>
+            </div>
+            <div class="card" id="calendar">
+                <iframe src="https://calendar.google.com/calendar/embed?src=YOUR_CALENDAR_ID" style="border: 0" width="500" height="400" frameborder="0" scrolling="no" loading="lazy"></iframe>
+            </div>
+        </div>
+        <div class="grid-main-area">
+            <picture class="gallery">
+                <img src="images/entrada-talca.webp" alt="Talca's entrance" loading="lazy">
+            </picture>
+            <picture class="gallery">
+                <img src="images/san-agustin.webp" alt="San Agustin Cathedral" loading="lazy">
+            </picture>
+            <picture class="gallery">
+                <img src="images/rio-claro-park.webp" alt="Rio Claro Park" loading="lazy">
+            </picture>
+            <picture class="gallery">
+                <img src="images/ruta-del-vino.webp" alt="Maule Wine Route" loading="lazy">
+            </picture>
+            <picture class="gallery">
+                <img src="images/cerro-la-virgen.webp" alt="Cerro de la Virgen" loading="lazy">
+            </picture>
+            <picture class="gallery">
+                <img src="images/plaza-maule.webp" alt="Casino Plaza Maule" loading="lazy">
+            </picture>
+            <picture class="gallery">
+                <img src="images/jardin-botanico.webp" alt="Botanical garden" loading="lazy">
+            </picture>
+        </div>
+        <div class="dates">
+            <p><b>Last Visited: </b><span id="last-visited"></span></p>
+        </div>
+    </main>
+    <footer>
+        <div class="info">
+            <p>Fabián Esteban Valdés Torrealba</p>
+            <p>WDD230 Chamber's Project</p>
+            <p>Last modification: <span id="lastModified"></span></p>
+        </div>
+        <div class="social">
+            <img src="images/facebook.webp" alt="facebook icon" loading="lazy">
+            <img src="images/twitter.webp" alt="twitter icon" loading="lazy">
+            <img src="images/github.webp" alt="github icon" loading="lazy">
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburguermenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+</body>
+</html>
