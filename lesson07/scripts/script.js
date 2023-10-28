@@ -63,7 +63,7 @@ function setChapterList() {
 }
 
 function getChapterList() {
-    return localStorage.getItem('BOMFavList');
+    return JSON.parse(localStorage.getItem('BOMFavList'));
 }
 
 function deleteChapter(chapter) {
