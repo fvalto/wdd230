@@ -64,7 +64,7 @@
 
     /* -- Discover in Week 7 -- */
 
-    main {
+    .discover-main {
         display: grid;
         grid-template-columns: 1fr 2fr;
     }

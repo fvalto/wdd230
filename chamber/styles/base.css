@@ -225,7 +225,7 @@ footer {
 
 /* -- Discover in Week 7 -- */
 
-main {
+.discover-main {
     display: flex;
     flex-direction: column;
 }
