@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>AllStar - Talca's Chamber of Commerce Home Page</title>
+        <meta name="author" content="Fabián Esteban Valdés Torrealba">
+        <meta name="description" content="Talca's Chamber of Commerce main page to join, publish, find, offer and promote commerce">
+        <link rel="icon" href="favicon.ico">
+        <meta property="og:title" content="AllStar Talca's Chamber of Commerce Home Page">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://i0.wp.com/tvmaulinos.com/wp-content/uploads/2017/11/plaza-armas-talca.jpg?fit=2390%2C1000&ssl=1">
+        <meta property="og:url" content="https://fvalto.github.io/wdd230/chamber/index.html">
+        <link rel="stylesheet" href="styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css">
+        <link rel="stylesheet" href="styles/medium.css">
+        <link rel="stylesheet" href="styles/larger.css">
+    </head>
+<body>
+    <header>
+        <a href="https://fvalto.github.io/wdd230/chamber/index.html"><img id="logo" src="images/logo.webp" alt="AllStar-logo"></a>
+        <h1>Talca's Chamber of Commerce</h1>
+        <nav>
+            <button id="menu" title="Menu"></button>
+            <div id="switch">
+                🌑
+            </div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="https://fvalto.github.io/wdd230/chamber/discover.html">Discover</a></li>
+                <li><a href="https://fvalto.github.io/wdd230/chamber/directory.html">Directory </a></li>
+                <li><a href="https://fvalto.github.io/wdd230/chamber/join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label class="top">First Name* <input type="text" name="fname" id="fname" required></label>
+                <label class="top">Last Name* <input type="text" name="lname" id="lname" required></label>
+                <label class="top">Email* <input type="email" name="email" id="email" required placeholder="someone@gmail.com"></label>
+                <label class="top">Mobile Phone Number* <input type="tel" name="pnum" id="pnum" required></label>
+            </fieldset>
+            <fieldset>
+                <legend>Business</legend>
+                <label class="top">Business/Organization <input type="text" name="organization" id="organization" required></label>
+                <label class="top">Tittle/Position <input type="text" name="position" id="position" pattern="[A-Za-z]{,7}"></label>
+                <div>Membership Level</div>
+                    <label class="sbs"><input type="radio" name="mlevel" value="np"> NP Membership</label>
+                    <label class="sbs"><input type="radio" name="mlevel" value="bronze"> Bronze Membership</label>
+                    <label class="sbs"><input type="radio" name="mlevel" value="silver"> Silver Membership</label>
+                    <label class="sbs"><input type="radio" name="mlevel" value="gold"> Gold Membership</label>
+                <label class="top">Business/Organization's description <textarea name="description" id="description" cols="50" rows="10"></textarea></label>
+            </fieldset>
+            <label><input type="hidden" name="time" id="time"></label>
+            <input type="submit" value="Apply to Join the Chamber" class="submitBtn">
+        </form>
+    <footer>
+        <div class="info">
+            <p>Fabián Esteban Valdés Torrealba</p>
+            <p>WDD230 Chamber's Project</p>
+            <p>Last modification: <span id="lastModified"></span></p>
+        </div>
+        <div class="social">
+            <img src="images/facebook.webp" alt="facebook icon">
+            <img src="images/twitter.webp" alt="twitter icon">
+            <img src="images/github.webp" alt="github icon">
+        </div>
+    </footer>
+    <script src="scripts/getdates.js"></script>
+    <script src="scripts/hamburguermenu.js"></script>
+    <script src="scripts/darkmode.js"></script>
+    <script src="scripts/windchill.js"></script>
+</body>
+</html>

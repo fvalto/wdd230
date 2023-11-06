@@ -26,9 +26,17 @@
 
     .member-spotlights {
         color: #f1f1ef;
+        gap: 1rem;
         display: grid; 
-        grid-template-columns: 1fr 1fr;
-        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-areas:
+        "c1 c1 c3"
+        "c1 c1 c3"
+        "c1 c1 c4"
+        "c2 c2 c4"
+        "c2 c2 c5"
+        "c2 c2 c5";
     }
     
     .card {
@@ -39,9 +47,25 @@
         margin: 2em;
         box-shadow: 0.2em 0.2em 0.2em #003357;
     }
-    
-    .member-spotlights .card:first-child {
-        grid-row: span 3;
+
+    #c1 {
+        grid-area: c1;
+    }
+
+    #c2 {
+        grid-area: c2;
+    }
+
+    #c3 {
+        grid-area: c3;
+    }
+
+    #c4 {
+        grid-area: c4;
+    }
+
+    #c5 {
+        grid-area: c5;
     }
 
     .footer {
