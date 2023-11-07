@@ -93,4 +93,15 @@
         grid-template-columns: 1fr 2fr;
     }
 
+    form label.sbs {
+        text-align: left;
+        margin-left: 30%;
+    }
+
+    form input.submitBtn:hover {
+        font-size: 1.5rem;
+        max-width: 21rem;
+        transition: .6s;
+    }
+
 }

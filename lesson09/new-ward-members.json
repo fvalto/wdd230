@@ -1,0 +1,23 @@
+{
+    "familyName" : "Valdes Vergara",
+    "dateMovedToWard" : "10-10-2022",
+    "memberNumber" : 3,
+    "bishopVisited" : true,
+    "members" : [
+        {
+            "name" : "Fabian Valdes",
+            "gender" : "male",
+            "birthdate" : "29-Oct-1993"
+        },
+        {
+            "name" : "Claudia Vergara",
+            "gender" : "female",
+            "birthdate" : "14-Feb-1994"
+        },
+        {
+            "name" : "Sofia Valdes",
+            "gender" : "female",
+            "birthdate" : "17-Aug-2023"
+        }
+    ]
+}
