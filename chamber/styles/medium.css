@@ -14,6 +14,7 @@
     .button {
         top: 15%; 
         left: 80%; 
+        max-width: 50rem;
     }
 
     #events-weather {
@@ -104,4 +105,15 @@
         transition: .6s;
     }
 
+    #mainform {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    #benefits {
+        display: block;
+        margin-top: auto;
+        margin-bottom: 100px;
+        margin-left: -70px;
+    }
 }
