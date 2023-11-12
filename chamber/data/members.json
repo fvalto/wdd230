@@ -1,0 +1,67 @@
+{
+    "members" : [
+        {
+            "name" : "PF Alimentos",
+            "adress" : "Once Ote. 1470, Talca, Maule",
+            "phoneNumber" :  56712224430,
+            "url" : "https://www.pfalimentos.cl/",
+            "imageUrl" : "https://www.pfalimentos.cl/wp-content/uploads/2021/01/logo-pf.png",
+            "membership" : "Silver Membership",
+            "sector" : "Food"
+        },
+        {
+            "name" : "Indemax",
+            "adress" : "30 oriente N°1546 oficina 911, Edificio Centro las Rastras II",
+            "phoneNumber" : 56712533620,
+            "url" : "https://indemax.cl/",
+            "imageurl" : "https://indemax.cl/wp-content/uploads/2019/03/logo.png",
+            "membership" : "Bronze Membership",
+            "sector" : "Construction, Machinery"
+        },
+        {
+            "name" : "Coca Cola Embonor",
+            "adress" : "Ruta 5 km. 247, Talca, Maule",
+            "phoneNumber" : 56712203200,
+            "url" : "https://www.embonor.cl/",
+            "imageurl" : "https://www.embonor.cl/img/logotipo-embonor.png",
+            "membership" : "Gold Membership",
+            "sector" : "Food and beberages"
+        },
+        {
+            "name" : "E. Kovacs",
+            "adress" : "Calle 1 Nte. 2183, Talca, Maule",
+            "phoneNumber" : 56712241868,
+            "url" : "https://www.kovacschevrolet.cl/",
+            "imageurl" : "https://assets-cdn.static-gm.com/Assets/8634ae9a-751c-401b-aee1-5878b6a9ce21/eb354c40-ffce-4f73-baf1-c14a34931082/v-1683056042/Desktop.png",
+            "membership" : "Gold Membership",
+            "sector" : "Automotive"
+        },
+        {
+            "name" : "Coexca S.A.",
+            "adress" : "Ruta 5 Km. 259, Talca, Maule",
+            "phoneNumber" : 56712631919,
+            "url" : "https://www.coexca.cl/",
+            "imageurl" : "https://www.coexca.cl/wp-content/uploads/2015/03/LOGOTIPO-01.gif",
+            "membership" : "Silver Membership",
+            "sector" : "Food"
+        },
+        {
+            "name" : "Fundacion Shalom Chile",
+            "adress" : "Las Rastras, Camino al Aromo, Talca",
+            "phoneNumber" : 56712339161,
+            "url" : "https://www.fundacionshalomchile.cl/",
+            "imageurl" : "https://www.fundacionshalomchile.cl/assets/img/logo.jpg",
+            "membership" : "Non Profit Organizations Membership",
+            "sector" : "Community work"
+        },
+        {
+            "name" : "Pared Talca",
+            "adress" : "8 Ote. 616, Talca, Maule",
+            "phoneNumber" : 56944334164,
+            "url" : "https://www.instagram.com/paredtalca/",
+            "imageurl" : "https://instagram.fccp1-1.fna.fbcdn.net/v/t51.2885-19/337270140_193204353425578_6108717503365607043_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fccp1-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=fmE1AZ94ejIAX_kxacX&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AfCMWtggQBq1rXgldoRasyFBiw7PRlbN10VlByo5oS-80Q&oe=65556781&_nc_sid=982cc7",
+            "membership" : "Bronze Membership",
+            "sector" : "Sport, Rock climbing"
+        }
+    ]
+}
