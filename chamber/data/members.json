@@ -16,7 +16,7 @@
             "url" : "https://indemax.cl/",
             "imageUrl" : "https://indemax.cl/wp-content/uploads/2019/03/logo.png",
             "membership" : "Bronze Membership",
-            "sector" : "Construction, Machinery"
+            "sector" : "Construction and Machinery"
         },
         {
             "name" : "Coca Cola Embonor",
@@ -55,13 +55,13 @@
             "sector" : "Community work"
         },
         {
-            "name" : "Pared Talca",
-            "adress" : "8 Ote. 616, Talca, Maule",
-            "phoneNumber" : 56944334164,
-            "url" : "https://www.instagram.com/paredtalca/",
-            "imageUrl" : "https://instagram.fccp1-1.fna.fbcdn.net/v/t51.2885-19/337270140_193204353425578_6108717503365607043_n.jpg?stp=dst-jpg_s150x150&_nc_ht=instagram.fccp1-1.fna.fbcdn.net&_nc_cat=110&_nc_ohc=fmE1AZ94ejIAX_kxacX&edm=ANmP7GQBAAAA&ccb=7-5&oh=00_AfCMWtggQBq1rXgldoRasyFBiw7PRlbN10VlByo5oS-80Q&oe=65556781&_nc_sid=982cc7",
-            "membership" : "Bronze Membership",
-            "sector" : "Sport, Rock climbing"
+            "name" : "Casino Talca",
+            "adress" : "Av. Circunvalación Ote. 1055, Talca, Maule",
+            "phoneNumber" : 56712527000,
+            "url" : "https://casinotalca.cl/",
+            "imageUrl" : "https://casinotalca.cl/wp-content/themes/_tk-master/images/logo.png",
+            "membership" : "Gold Membership",
+            "sector" : "Gambling and Entertainment"
         }
     ]
 }
