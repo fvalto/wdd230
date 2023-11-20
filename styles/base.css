@@ -180,3 +180,9 @@ footer {
 .gmap {
     grid-column: span 2;
 }
+
+#weather {
+    text-align: center;
+    /* border: 2px solid #000; */
+    margin: 50px 2px 50px 2px;
+}

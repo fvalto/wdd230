@@ -34,12 +34,18 @@
         </nav>
     </header>
     <main>
+        <div id="meet-banner">
+            <h3>Come and say hi!</h3>
+            <button id="close-banner" title="close-banner">&#9747;</button>
+            <p>Don't miss the chance to attend the chamber of commerce meet and greet on Wednesday at 7:00 p.m.<br><br>See you there!</p>
+        </div>
+        <div id="overlay"></div>
         <div class="hero-image">
             <h2 class="hero-text">Grab the only opportunity you need to grow and move forward!</h2>
             <picture class="hero-pic">
-                <source srcset="images/wdd230-org-small.webp" media="(max-width: 850px)">
-                <source srcset="images/wdd230-org-medium.webp" media="(max-width: 1200px)">
-                <img src="images/wdd230-org-large.webp" alt="hero image">
+                <source srcset="images/hero-small.webp" media="(max-width: 850px)">
+                <source srcset="images/hero-medium.webp" media="(max-width: 1200px)">
+                <img src="images/hero-large.webp" alt="hero image">
             </picture>
             <form action="https://fvalto.github.io/wdd230/chamber/join.html" method="GET">
                 <button class="button" type="submit">Join Now!</button>
@@ -50,13 +56,16 @@
                 <h3>Events</h3>
             </div>
             <div class="weather">
-                <h3>Weather</h3>
+                <h3>Current Weather in Talca</h3>
                 <p><b>Temperature: </b><span id="temperature"></span></p>
-                <input type="number" id="temperature-value">
                 <p><b>Wind speed: </b><span id="wind-speed"></span></p>
-                <input type="number" id="wind-speed-value">
-                <p><b>Wind chill:</b></p><br>
-                <p id="wind-chill"></p>
+                <figure>
+                    <img id="weather-icon" src="" alt="weather-icon">
+                    <figcaption></figcaption>
+                </figure>
+                <p><b>Wind chill:</b><span id="wind-chill"></span></p><br>
+                <h3>Forecast</h3>
+                <div id="forecast"></div>
             </div>
         </div>
         <div class="member-spotlights">
@@ -103,5 +112,6 @@
     <script src="scripts/hamburguermenu.js"></script>
     <script src="scripts/darkmode.js"></script>
     <script src="scripts/windchill.js"></script>
+    <script src="scripts/meetbanner.js"></script>
 </body>
 </html>

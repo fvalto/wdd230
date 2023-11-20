@@ -28,6 +28,12 @@ h2 {
     font-size: 2rem;
 }
 
+p {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+    padding: 2px;
+}
+
 section {
     color: white;
     margin: 0.25rem;
@@ -45,4 +51,5 @@ img {
     max-width: 325px;
     height: 200px;
     box-shadow: 5px 5px 15px #363400;
+    margin-top: 10px;
 }
