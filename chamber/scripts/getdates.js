@@ -1,8 +1,5 @@
 let lastModif = new Date(document.lastModified);
 document.querySelector('#lastModified').innerHTML = lastModif;
-let submitBtn = querySelector('.submitBtn');
-let timeStamp = querySelector('#timestamp');
-// let timeStamp = 0;
 
 // Discover - Last Visited
 let lastElement = document.querySelector('#last-visited');
@@ -23,16 +20,6 @@ if (lastVisited === "Welcome! Let us know if you have any questions.") {
         lastVisited = `You last visited ${daysWithNoVisit.toFixed(0)} days ago`
     }
 }
-
-function submit() {
-    timeStamp.textContent = today;
-    console.log('timeStamp.value');
-}
-
-// submitBtn.addEventListener('click', () => {
-//     timeStamp.textContent = today;
-//     console.log('timeStamp.value');
-// });
 
 lastElement.textContent = lastVisited;
 localStorage.setItem("lastVisited-ls", today.toString());

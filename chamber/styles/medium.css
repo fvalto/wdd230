@@ -105,6 +105,18 @@
         transition: .6s;
     }
 
+    .grid-side-bar {
+        background-color: #005c9d;
+        position: sticky;
+        top: 0;
+        height: 100vh; /* Set the height to take full viewport height */
+        width: auto; /* Set the width as per your design */
+        z-index: 100; /* Set a z-index to ensure it stays above the main content */
+        margin-right: 20px; /* Add margin to create space between sidebar and main content */
+    }
+
+    /* Join Page */
+
     #mainform {
         display: grid;
         grid-template-columns: 2fr 1fr;

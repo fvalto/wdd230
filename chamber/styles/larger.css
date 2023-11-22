@@ -35,4 +35,8 @@
         margin-left: 32%;
         text-align: left;
     }
+
+    footer {
+        padding-top: 50px; /* Add padding to create space between calendar and footer */
+    }
 }
