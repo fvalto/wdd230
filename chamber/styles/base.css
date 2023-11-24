@@ -129,9 +129,17 @@ h1 {
     justify-content: space-around;
 }
 
-.weather input {
-    text-align: right;
-    max-width: 50px;
+.weather {
+    text-align: center;
+    align-items: center;
+}
+
+#event-img {
+    width: 50%;
+}
+
+#event-link {
+    font-size: 1.2rem;
 }
 
 #wind-chill {

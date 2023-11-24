@@ -31,10 +31,10 @@ const displayMembers = (members) => {
 
         phone.value = member.phoneNumber;
 
+        sector.textContent = `Sector: ${member.sector}`
+
         website.setAttribute('href', member.url);
         website.textContent = "Go to webpage";
-
-        sector.textContent = `Sector: ${member.sector}`
 
         card.append(logo, memberName, adress, phone, website, sector);
         cards.appendChild(card);

@@ -7,7 +7,8 @@
             "url" : "https://www.pfalimentos.cl/",
             "imageUrl" : "https://www.pfalimentos.cl/wp-content/uploads/2021/01/logo-pf.png",
             "membership" : "Silver Membership",
-            "sector" : "Food"
+            "sector" : "Food",
+            "spotImage" : "https://img.soy-chile.cl/Fotos/2014/05/05/file_20140505175922.jpg"
         },
         {
             "name" : "Indemax",
@@ -16,7 +17,8 @@
             "url" : "https://indemax.cl/",
             "imageUrl" : "https://indemax.cl/wp-content/uploads/2019/03/logo.png",
             "membership" : "Bronze Membership",
-            "sector" : "Construction and Machinery"
+            "sector" : "Construction and Machinery",
+            "spotImage" : "https://gruposuarias.cl/wp-content/uploads/2023/01/4-1.png"
         },
         {
             "name" : "Coca Cola Embonor",
@@ -25,7 +27,8 @@
             "url" : "https://www.embonor.cl/",
             "imageUrl" : "https://www.embonor.cl/img/logotipo-embonor.png",
             "membership" : "Gold Membership",
-            "sector" : "Food and beberages"
+            "sector" : "Food and beberages",
+            "spotImage" : "https://www.america-retail.com/static/2021/02/AGENCIA-CocaCola-696x464.jpg"
         },
         {
             "name" : "E. Kovacs",
@@ -34,7 +37,8 @@
             "url" : "https://www.kovacschevrolet.cl/",
             "imageUrl" : "https://assets-cdn.static-gm.com/Assets/8634ae9a-751c-401b-aee1-5878b6a9ce21/eb354c40-ffce-4f73-baf1-c14a34931082/v-1683056042/Desktop.png",
             "membership" : "Gold Membership",
-            "sector" : "Automotive"
+            "sector" : "Automotive",
+            "spotImage" : "https://i.pinimg.com/originals/4e/c5/45/4ec5451190e4d4842178fed52909c75f.jpg"
         },
         {
             "name" : "Coexca S.A.",
@@ -43,7 +47,8 @@
             "url" : "https://www.coexca.cl/",
             "imageUrl" : "https://www.coexca.cl/wp-content/uploads/2015/03/LOGOTIPO-01.gif",
             "membership" : "Silver Membership",
-            "sector" : "Food"
+            "sector" : "Food",
+            "spotImage" : "https://www.indh.cl/bb/wp-content/uploads/2020/02/coexca.jpg"
         },
         {
             "name" : "Fundacion Shalom Chile",
@@ -52,7 +57,8 @@
             "url" : "https://www.fundacionshalomchile.cl/",
             "imageUrl" : "https://www.fundacionshalomchile.cl/assets/img/logo.jpg",
             "membership" : "Non Profit Organizations Membership",
-            "sector" : "Community work"
+            "sector" : "Community work",
+            "spotImage" : "https://www.fundacionshalomchile.cl/assets/img/logo.jpg"
         },
         {
             "name" : "Casino Talca",
@@ -61,7 +67,8 @@
             "url" : "https://casinotalca.cl/",
             "imageUrl" : "https://casinotalca.cl/wp-content/themes/_tk-master/images/logo.png",
             "membership" : "Gold Membership",
-            "sector" : "Gambling and Entertainment"
+            "sector" : "Gambling and Entertainment",
+            "spotImage" : "https://imagenesyogonet.b-cdn.net/data/imagenes/2021/05/05/36338/1625371083-casino-talca-chile.jpg"
         }
     ]
 }
