@@ -25,8 +25,8 @@ const displayMembers = (members) => {
         // in this part I need to create inside every card an image, h6 and p fotom the JSON
         if (card) {
             card.innerHTML = `
-                <img class="spotlight-image" src="${members[index].spotImage}" alt="spotlight">
-                <img class="spotlight-logo" src="${members[index].imageUrl}" alt="spotlight">
+                <img class="spotlight-image" src="${members[index].spotImage}" loading="lazy" alt="spotlight">
+                <img class="spotlight-logo" src="${members[index].imageUrl}" loading="lazy" alt="spotlight">
                 <p class="spotlight-text">${members[index].description}</p>
                 <a class="spotlight-url" href="${members[index].url}">Go to website</a>
             `;
