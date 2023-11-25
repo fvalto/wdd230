@@ -28,6 +28,7 @@ const displayMembers = (members) => {
                 <img class="spotlight-image" src="${members[index].spotImage}" alt="spotlight">
                 <img class="spotlight-logo" src="${members[index].imageUrl}" alt="spotlight">
                 <p class="spotlight-text">${members[index].description}</p>
+                <a class="spotlight-url" href="${members[index].url}">Go to website</a>
             `;
         }
 

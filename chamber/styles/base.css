@@ -134,11 +134,12 @@ h1 {
     align-items: center;
 }
 
-#event-img {
-    width: 50%;
+.event-img {
+    width: 70%;
+    height: auto;
 }
 
-#event-link {
+.event-link {
     font-size: 1.2rem;
 }
 
@@ -149,15 +150,30 @@ h1 {
     font-weight: bold;
 }
 
+#events-weather {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
 .current-events, .weather {
     background-color: #f1f1ef;
     width: auto;
     border: 2px solid black;
-    padding: 2em 8em 10em 8em;
+    padding: .5em;
     margin: 2em;
     text-align: center;
     box-shadow: 0.2em 0.2em 0.2em #003357 ;
     
+}
+
+#event-card {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 5px;
+}
+
+#event-card div {
+    margin: 5px;
 }
 
 .current-events h1, .weather h1 {
@@ -172,12 +188,21 @@ h1 {
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     background-color: lightblue;
     border: 2px solid black;
+    border-radius: 5px;
     margin: 2em;
     box-shadow: 0.2em 0.2em 0.2em #003357;
     color: #000;
 }
+
+.card:hover {
+    box-shadow: 1em 1em 1em #003357;
+}
+
 .spotlight-heading {
     text-align: center;
     font-size: 2rem;
@@ -187,7 +212,8 @@ img.spotlight-image {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 100%;
+    width: 90%;
+    padding: 5px;
 }
 
 img.spotlight-logo {
@@ -195,6 +221,29 @@ img.spotlight-logo {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
+}
+
+p.spotlight-text {
+    font-size: 110%;
+    padding: 10px;
+    text-align: center;
+}
+
+a.spotlight-url, a.event-link {
+    font-size: 120%;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: #badbf1;
+    font-weight: bold;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #003357;
+}
+
+a.spotlight-url:hover, a.event-link:hover {
+    color: #000;
+    background-color: #0193fb;
 }
 
 footer {

@@ -4,7 +4,8 @@
     }
     
     .hero-image {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 2fr 5fr;
     }
 
     .hero-text {
