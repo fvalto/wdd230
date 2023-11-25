@@ -18,7 +18,8 @@ function calculateWindChill(temperature, windSpeed) {
 const weatherDiv = document.querySelector('.weather');
 const currentTemp = document.getElementById('temperature');
 const windSpeed = document.getElementById('wind-speed');
-const weatherIcon = document.getElementById('weather-icon');
+const weatherFig = document.getElementById('weather-fig');
+const weatherIcon = document.createElement('img');
 const captionDesc = document.querySelector('figcaption');
 const windChill = document.getElementById('wind-chill');
 const forecast = document.getElementById('forecast');
@@ -57,8 +58,10 @@ function displayResults(data) {
     currentTemp.innerHTML = `${temp.toFixed(0)}&deg;F`;
     windSpeed.innerHTML = `${wspeed}`;
     const iconsrc = `https://openweathermap.org/img/w/${data.weather[0].icon}.png`;
+    weatherIcon.setAttribute('id', 'weather-icon')
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('loading', 'lazy');
+    weatherFig.append(weatherIcon);
     let desc = data.weather[0].description;
     captionDesc.textContent = `${capitalizeLetter(desc)}`;
     calculateWindChill(temp, wspeed);
