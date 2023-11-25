@@ -61,6 +61,7 @@ function displayResults(data) {
     weatherIcon.setAttribute('id', 'weather-icon')
     weatherIcon.setAttribute('src', iconsrc);
     weatherIcon.setAttribute('loading', 'lazy');
+    weatherIcon.setAttribute('alt', 'weatherIcon');
     weatherFig.append(weatherIcon);
     let desc = data.weather[0].description;
     captionDesc.textContent = `${capitalizeLetter(desc)}`;
