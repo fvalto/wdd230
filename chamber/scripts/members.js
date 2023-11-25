@@ -29,14 +29,14 @@ const displayMembers = (members) => {
 
         adress.textContent = member.adress;
 
-        phone.value = member.phoneNumber;
+        phone.textContent = 'Phone: +' + member.phoneNumber;
 
         sector.textContent = `Sector: ${member.sector}`
-
+        
         website.setAttribute('href', member.url);
         website.textContent = "Go to webpage";
-
-        card.append(logo, memberName, adress, phone, website, sector);
+        
+        card.append(logo, memberName, adress, phone, sector, website);
         cards.appendChild(card);
     });
 }

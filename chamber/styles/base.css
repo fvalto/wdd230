@@ -178,14 +178,23 @@ h1 {
     box-shadow: 0.2em 0.2em 0.2em #003357;
     color: #000;
 }
-
-.spotlight-image {
-    width: 100%;
-}
-
 .spotlight-heading {
     text-align: center;
     font-size: 2rem;
+}
+
+img.spotlight-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+img.spotlight-logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
 footer {

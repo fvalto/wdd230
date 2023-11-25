@@ -8,7 +8,8 @@
             "imageUrl" : "https://www.pfalimentos.cl/wp-content/uploads/2021/01/logo-pf.png",
             "membership" : "Silver Membership",
             "sector" : "Food",
-            "spotImage" : "https://img.soy-chile.cl/Fotos/2014/05/05/file_20140505175922.jpg"
+            "spotImage" : "https://img.soy-chile.cl/Fotos/2014/05/05/file_20140505175922.jpg",
+            "description" : "In our almost 120 years of existence we have become a leading company in the food industry, thanks to constant improvements in our management and modernization systems."
         },
         {
             "name" : "Indemax",
@@ -18,7 +19,8 @@
             "imageUrl" : "https://indemax.cl/wp-content/uploads/2019/03/logo.png",
             "membership" : "Bronze Membership",
             "sector" : "Construction and Machinery",
-            "spotImage" : "https://gruposuarias.cl/wp-content/uploads/2023/01/4-1.png"
+            "spotImage" : "https://gruposuarias.cl/wp-content/uploads/2023/01/4-1.png",
+            "description" : "We have a large fleet of Mixer trucks, which enables us as Indemax to provide our clients with timely and quality service."
         },
         {
             "name" : "Coca Cola Embonor",
@@ -28,7 +30,8 @@
             "imageUrl" : "https://www.embonor.cl/img/logotipo-embonor.png",
             "membership" : "Gold Membership",
             "sector" : "Food and beberages",
-            "spotImage" : "https://www.america-retail.com/static/2021/02/AGENCIA-CocaCola-696x464.jpg"
+            "spotImage" : "https://www.america-retail.com/static/2021/02/AGENCIA-CocaCola-696x464.jpg",
+            "description" : "We are a bottler of excellence under license from The Coca-Cola Company and we create sustainable value for all our stakeholders."
         },
         {
             "name" : "E. Kovacs",
@@ -38,7 +41,8 @@
             "imageUrl" : "https://assets-cdn.static-gm.com/Assets/8634ae9a-751c-401b-aee1-5878b6a9ce21/eb354c40-ffce-4f73-baf1-c14a34931082/v-1683056042/Desktop.png",
             "membership" : "Gold Membership",
             "sector" : "Automotive",
-            "spotImage" : "https://i.pinimg.com/originals/4e/c5/45/4ec5451190e4d4842178fed52909c75f.jpg"
+            "spotImage" : "https://i.pinimg.com/originals/4e/c5/45/4ec5451190e4d4842178fed52909c75f.jpg",
+            "description" : "Since 1989, Kovacs y Cía has been the leader in the sales and service distribution of General Motors products in Chile."
         },
         {
             "name" : "Coexca S.A.",
@@ -48,7 +52,8 @@
             "imageUrl" : "https://www.coexca.cl/wp-content/uploads/2015/03/LOGOTIPO-01.gif",
             "membership" : "Silver Membership",
             "sector" : "Food",
-            "spotImage" : "https://www.indh.cl/bb/wp-content/uploads/2020/02/coexca.jpg"
+            "spotImage" : "https://www.indh.cl/bb/wp-content/uploads/2020/02/coexca.jpg",
+            "description" : "Company with integrated operations from food production to logistics to the final consumer. Its facilities, in different regions of the country, employ more than 1,000 families."
         },
         {
             "name" : "Fundacion Shalom Chile",
@@ -58,7 +63,8 @@
             "imageUrl" : "https://www.fundacionshalomchile.cl/assets/img/logo.jpg",
             "membership" : "Non Profit Organizations Membership",
             "sector" : "Community work",
-            "spotImage" : "https://www.fundacionshalomchile.cl/assets/img/logo.jpg"
+            "spotImage" : "https://www.sename.cl/web/wp-content/uploads/2019/01/cab-00003.jpg",
+            "description" : "Hogar Kids Shalom Talca is a space of shelter, security and care for children in vulnerable situations due to intra-family problems of drug addiction, violence and/or neglect, within the framework of a situation of poverty and abandonment."
         },
         {
             "name" : "Casino Talca",
@@ -68,7 +74,9 @@
             "imageUrl" : "https://casinotalca.cl/wp-content/themes/_tk-master/images/logo.png",
             "membership" : "Gold Membership",
             "sector" : "Gambling and Entertainment",
-            "spotImage" : "https://imagenesyogonet.b-cdn.net/data/imagenes/2021/05/05/36338/1625371083-casino-talca-chile.jpg"
+            "spotImage" : "https://imagenesyogonet.b-cdn.net/data/imagenes/2021/05/05/36338/1625371083-casino-talca-chile.jpg",
+            "description" : "Talca Gaming Casino offers its visitors the most popular world-class casino games, so they can spend pleasant moments of entertainment, with lots of fun and in a pleasant atmosphere."
+
         }
     ]
 }
