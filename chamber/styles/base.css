@@ -150,11 +150,6 @@ h1 {
     font-weight: bold;
 }
 
-#events-weather {
-    display: grid;
-    grid-template-columns: 2fr 1fr;
-}
-
 .current-events, .weather {
     background-color: #f1f1ef;
     width: auto;

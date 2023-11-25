@@ -19,7 +19,8 @@
     }
 
     #events-weather {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: 2fr 1fr;
     }
 
     .current-events h1, .weather h1 {
