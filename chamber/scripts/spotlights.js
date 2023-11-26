@@ -22,7 +22,6 @@ const displayMembers = (members) => {
         let cardId = `c${i}`
         let card = document.getElementById(cardId)
         
-        // in this part I need to create inside every card an image, h6 and p fotom the JSON
         if (card) {
             card.innerHTML = `
                 <img class="spotlight-image" src="${members[index].spotImage}" loading="lazy" alt="spotlight">
