@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fffdf9;
+    min-width: 375px;
+}
+
+main {
+    position: relative;
+}
+
+header {
+    display: grid;
+    background-color: #fac116;
+    grid-template: 
+            "b a" auto
+            "c c" auto;
+    align-items: center;
+    padding: 1%;
+}
+
+header img {
+    min-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+header h1 {
+    font-family: 'Shadows Into Light', cursive;
+    text-align: center;
+    grid-column: span 2;
+    font-size: 2em;
+    margin: 0;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 1px solid #cfe4e833;
+    padding: 3px 7px 6px;
+    background-color: #ffffff;
+    color: #000;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "❌";
+}
+
+.navigation li {
+    display: none;
+}
+
+.open li {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    left: auto;
+    width: 100%;
+}
+
+.open li a {
+    text-decoration: none;
+    font-size: 1em;
+    display: flex;
+    justify-content: center;
+    transition: 0.3s;
+    color: black;
+    margin-top: 20px;
+}
+
+.navigation {
+    font-size: 1.2em;
+    list-style: none;
+    padding: 1em;
+  }
+
+.navigation li {
+    margin: 0 10px;
+}
+
+.navigation a:hover {
+    color: white;
+}
+
+.slideshow {
+    width: 100%;
+    position: relative;
+    margin: auto;
+}
+
+.slideshow img {
+    width: 100%;
+    border-bottom-right-radius: 20em 8em;
+    border-bottom-left-radius: 20em 8em;
+}
+
+.my-slide {
+    display: none;
+}
+
+.active {
+    background-color: #717171;
+}
+
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from { opacity: 0.4; }
+    to { opacity: 1; }
+}
+
+.button {
+    align-items: center;
+    border-radius: 12px;
+    background-color: #fac116;
+    color: black;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 700;
+    justify-content: center;
+    padding: 1em 3em;
+    text-align: center;
+    border: 0.2em solid black;
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+.button:hover {
+    background: rgb(112,196,255);
+    background: radial-gradient(circle, rgba(112,196,255,1) 0%, rgba(0,16,27,1) 100%);
+    color: black;
+}
