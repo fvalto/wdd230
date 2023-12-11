@@ -3,6 +3,13 @@
         display: none;
     }
 
+    header img {
+        margin: 0 auto;
+        width: 20%;
+        max-width: 30%;
+        margin-bottom: -5%;
+    }
+
     nav {
         text-align: center;
     }
@@ -34,11 +41,28 @@
     .navigation a:hover {
         transform: scale(1.2);
         color: #ffffff;
-
     }
 
     header h1 {
         text-align: center;
         font-size: 3em;
+    }
+
+    .button {
+        border-radius: 15px;
+        font-size: 1.8rem;
+        padding: .5em 2em;
+        bottom: 15%;
+        left: 50%;
+    }
+
+    .button:hover {
+        background: #fdf8e9;
+        font-weight: 800;
+        color: black;
+    }
+
+    .rental-summary {
+        flex-direction: row;
     }
 }
