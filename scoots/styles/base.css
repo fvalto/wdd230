@@ -1,13 +1,14 @@
-@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rethink+Sans&family=Shadows+Into+Light&display=swap');
 
 body {
-    font-family: Arial, sans-serif;
+    font-family: 'Rethink Sans', sans-serif;
     background-color: #fffdf9;
     min-width: 375px;
 }
 
-h1, h2 {
+h1, h2, h3 {
     text-align: center;
+    font-family: 'Shadows Into Light', cursive;
 }
 
 header {
@@ -16,6 +17,7 @@ header {
     grid-template: 
             "b a" auto
             "c c" auto;
+    grid-template-columns: 1fr 2fr;
     align-items: center;
     padding: 1%;
 }
@@ -92,12 +94,6 @@ header h1 {
     color: white;
 }
 
-.slideshow {
-    width: 100%;
-    position: relative;
-    margin: auto;
-}
-
 .slideshow img {
     width: 100%;
     border-bottom-right-radius: 20em 8em;
@@ -122,6 +118,13 @@ header h1 {
     to { opacity: 1; }
 }
 
+.slideshow {
+    width: 100%;
+    position: relative;
+    margin: auto;
+    z-index: -1;
+}
+    
 .button {
     border-radius: 6px;
     background-color: #fac116;
@@ -131,17 +134,18 @@ header h1 {
     padding: .5em 2em;
     text-align: center;
     border: 0.2em solid black;
-    position: absolute;
-    bottom: 30%;
-    left: 50%;
-    transform: translateX(-50%);
+    margin-top: -3em;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
     z-index: 1;
 }
 
+
 .button:hover {
     color: #ffffff;
-    border: 0.2em solid rgb(255, 255, 255);
-    box-shadow: 0px 0px 60px 40px rgb(255, 255, 255);
+    border: 0.2em solid #ffffff;
+    box-shadow: 0px 0px 60px 40px #ffffff;
 }
 
 .contact-info {
@@ -167,6 +171,12 @@ header h1 {
     margin-right: auto;
 }
 
+.rental-summary figure:hover {
+    transform: scale(1.02);
+    transition: .5s;
+    border: 2px solid #717171;
+}
+
 .rental-summary img {
     width: 100%;
 }
@@ -187,4 +197,83 @@ footer {
     margin-left: auto;
     margin-right: auto;
     justify-content: space-between;
+}
+
+#weather-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#weather-fig {
+    margin-bottom: 10px;
+}
+
+.iconcaption {
+    font-family: 'Rethink Sans', sans-serif;
+    font-size: 1em;
+    margin-top: 10px;
+}
+
+#current-temperature,
+#current-humidity,
+#next-day-forecast {
+    margin: 5px 0;
+}
+
+#next-day-forecast {
+    font-size: 1.2em;
+}
+
+/* RENTALS PAGE */
+
+.rentals-info {
+    margin-top: 4em;
+}
+
+.rentals-table {
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+.rentals-table th, .rentals-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+.rentals-table th {
+    background-color: #f2f2f2;
+}
+
+.rentals-table tbody tr:hover {
+    background-color: #f5f5f5;
+}
+
+.reserv-button {
+    border-radius: 6px;
+    background-color: #fac116;
+    color: #000;
+    cursor: pointer;
+    font-size: 2em;
+    padding: .5em 2em;
+    text-align: center;
+    border: 0.2em solid black;
+    display: flex;
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2em;
+    z-index: 1;
+}
+
+.reserv-button:hover {
+    color: #ffffff;
+    border: 0.2em solid #ffffff;
+    font-weight: 600;
+    box-shadow: 0px 0px 60px 40px #fac116;
 }
