@@ -14,9 +14,6 @@ async function apiFetch() {
       if (currentResponse.ok && forecastResponse.ok) {
         const currentData = await currentResponse.json();
         const forecastData = await forecastResponse.json();
-        
-        console.table(currentData);
-        console.table(forecastData);
   
         displayResults(currentData, forecastData);
       } else {

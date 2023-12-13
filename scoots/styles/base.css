@@ -169,12 +169,12 @@ header h1 {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    gap: 5px;
 }
 
 .rental-summary figure:hover {
-    transform: scale(1.02);
-    transition: .5s;
-    border: 2px solid #717171;
+    transform: scale(1.05);
+    transition: .4s;
 }
 
 .rental-summary img {
@@ -276,4 +276,113 @@ footer {
     border: 0.2em solid #ffffff;
     font-weight: 600;
     box-shadow: 0px 0px 60px 40px #fac116;
+}
+
+.rental-content {
+    display: flex;
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+form fieldset {
+    margin: 2rem 0;
+    border: 1px solid #445ba9;
+    border-radius: 10px;
+    padding: .5rem 2%;
+    width: 380px;
+}
+
+legend {
+    color: #445ba9;
+    margin: 0 1rem;
+    padding: .5rem;
+}
+
+form label.top, form div {
+    display: block;
+    padding-top: 1rem;
+    color: #785a00;
+    font-size: 1rem;
+}
+
+form label.top input, form label.top select {
+    -webkit-appearance: none;
+    display: block;
+    font-size: 1rem;
+    border: solid 1px #999;
+    border-radius: 4px;
+    padding: .75rem;
+    color: #555;
+    width: 100%;
+    max-width: 20rem;
+    background-color: #fff5d7;
+}
+
+form label.sbs {
+    display: block;
+    padding: .75rem 0;
+    color: #555;
+}
+
+input.submitBtn {
+    border: none;
+    background-color: #fac116;
+    color: white;
+    border-radius: 1rem;
+    padding: .75rem 1.5rem;
+    margin: 0 0 2rem 2%;
+    width: 95%;
+    max-width: 20rem;
+    cursor: pointer;
+    font-weight: 1000;
+}
+
+.thanks {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    max-width: 90%;
+}
+
+#thanks-msg {
+    text-align: center;
+}
+
+.contact-main {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.contact-information {
+    display: flex;
+    flex-direction: column;
+    padding: 3em;
+    padding-left: 8em;
+}
+
+.contact-form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.gmap iframe {
+    height: 100%;
+    width: 100%;
+}
+
+.gmap {
+    display: flex;
+    grid-column: span 2;
+    gap: 1em;
 }

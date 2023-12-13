@@ -5,7 +5,6 @@ async function getRentalsData() {
     try {
         const response = await fetch(url);
         const data = await response.json();
-        console.log(data);
         displayRentals(data.rentals);
     } catch (error) {
         console.error('Error fetching data:', error);
