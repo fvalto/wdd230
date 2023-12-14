@@ -43,9 +43,19 @@ function displayResults(currentData, forecastData) {
     const currentHumidity = currentData.main.humidity;
     document.getElementById('current-humidity').innerText = currentHumidity;
 
+    const todaysMaxTemperature = currentData.main.temp_max;
+    document.getElementById('max-temperature').innerText = todaysMaxTemperature;
+
     const nextDayForecast = forecastData.list[0]
     const nextDayTemperature = nextDayForecast.main.temp;
     document.getElementById('next-day-forecast').innerText = nextDayTemperature;
 }
 
 apiFetch();
+
+const button = document.querySelector('#close-todays-max');
+const todaysMaxDiv = document.querySelector('#todays-max');
+
+button.addEventListener('click', () => {
+  todaysMaxDiv.classList.toggle('closed');
+});

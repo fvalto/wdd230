@@ -67,7 +67,7 @@
 
     .social {
         display: flex;
-        align-items: center;
+        flex-direction: row;
         justify-content: space-evenly;
         gap: 1em;
     }
@@ -75,10 +75,14 @@
     .rental-content {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
+        gap: 1em;
     }
 
     .agreements {
         margin-top: 10em;
+        background-color: #fdf8e9;
+        border-radius: 2em;
+        margin: auto;
     }
 
     .thanks {
@@ -86,22 +90,36 @@
     }
     
     .contact-main {
+        display: grid;
         grid-template-columns: 1fr 1fr;
         max-width: 90%;
-        gap: 5em;
+        gap: 1.5em;
         margin-left: auto;
         margin-right: auto;
     }
 
     .contact-information {
-        padding-left: 0;
+        padding: 2em;
+        margin: auto;
+        border-radius: 2em;
+    }
+
+    .gmap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 1em;
+        margin-bottom: 5em;
+    }
+    
+    .gmap > div {
+        width: 100%;
     }
     
     #playa-del-carmen {
-        grid-template-columns: 0/1;
+        grid-column: 0/1;
     }
 
     #puerta-maya {
-        grid-template-columns: 1/2;
+        grid-column: 2/3;
     }
 }

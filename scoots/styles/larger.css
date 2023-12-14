@@ -1,5 +1,12 @@
 @media screen and (min-width: 1200px) {
     .contact-information {
-        padding-left: 12em;
+        padding: 5em;
+    }
+
+    .contact-main {
+        max-width: 80%;
+        padding: 5em;
+        margin-left: auto;
+        margin-right: auto;
     }
 }

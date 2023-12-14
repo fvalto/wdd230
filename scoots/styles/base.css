@@ -11,6 +11,26 @@ h1, h2, h3 {
     font-family: 'Shadows Into Light', cursive;
 }
 
+#todays-max {
+    text-align: center;
+}
+
+#close-todays-max {
+    font-size: 1em;
+    border: 1px solid #00000033;
+    pad: 2em;
+    background-color: #ffedb8;
+    color: #000;
+    top: 1rem;
+    right: 1rem;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.closed {
+    display: none;
+}
+
 header {
     display: grid;
     background-color: #fac116;
@@ -199,6 +219,23 @@ footer {
     justify-content: space-between;
 }
 
+.footer-info {
+    margin-bottom: auto;
+    margin-top: auto;
+    font-size: 1.5em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: auto;
+    margin-top: auto;
+}
+
+.social img {
+    border-radius: 5px;
+}
+
 #weather-info {
     display: flex;
     flex-direction: column;
@@ -332,12 +369,20 @@ input.submitBtn {
     background-color: #fac116;
     color: white;
     border-radius: 1rem;
+    border: 2px solid #fff;
     padding: .75rem 1.5rem;
     margin: 0 0 2rem 2%;
     width: 95%;
     max-width: 20rem;
     cursor: pointer;
     font-weight: 1000;
+}
+
+input.submitBtn:hover {
+    background-color: #ffffff;
+    color: #000;
+    border: 2px ridge #000;
+
 }
 
 .thanks {
@@ -355,8 +400,8 @@ input.submitBtn {
 }
 
 .contact-main {
-    display: grid;
-    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
 }
 
 .contact-information {
@@ -364,6 +409,7 @@ input.submitBtn {
     flex-direction: column;
     padding: 3em;
     padding-left: 8em;
+    background-color: #ededed;
 }
 
 .contact-form {
@@ -373,7 +419,12 @@ input.submitBtn {
 
 .social-icons {
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1em;
+}
+
+.social-icons img {
+    border-radius: 10px;
 }
 
 .gmap iframe {
@@ -382,7 +433,9 @@ input.submitBtn {
 }
 
 .gmap {
+    max-width: 90%;
     display: flex;
-    grid-column: span 2;
-    gap: 1em;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
