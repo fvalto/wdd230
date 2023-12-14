@@ -107,12 +107,4 @@
     .gmap > div {
         width: 100%;
     }
-    
-    #playa-del-carmen {
-        grid-column: 0/1;
-    }
-
-    #puerta-maya {
-        grid-column: 2/3;
-    }
 }
