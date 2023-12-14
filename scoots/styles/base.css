@@ -284,7 +284,7 @@ footer {
 }
 
 .rentals-table th {
-    background-color: #f2f2f2;
+    background-color: #fdf8e9;
 }
 
 .rentals-table tbody tr:hover {
@@ -385,6 +385,13 @@ input.submitBtn:hover {
 
 }
 
+.agreements {
+    margin-top: 10em;
+    background-color: #fdf8e9;
+    border-radius: 2em;
+    margin: auto;
+}
+
 .thanks {
     margin-left: auto;
     margin-right: auto;
@@ -409,7 +416,7 @@ input.submitBtn:hover {
     flex-direction: column;
     padding: 3em;
     padding-left: 8em;
-    background-color: #ededed;
+    background-color: #fdf8e9;
 }
 
 .contact-form {

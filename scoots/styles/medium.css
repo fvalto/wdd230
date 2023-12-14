@@ -74,15 +74,8 @@
 
     .rental-content {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
         gap: 1em;
-    }
-
-    .agreements {
-        margin-top: 10em;
-        background-color: #fdf8e9;
-        border-radius: 2em;
-        margin: auto;
     }
 
     .thanks {

@@ -1,4 +1,9 @@
 @media screen and (min-width: 1200px) {
+    .rental-content {
+        grid-template-columns: 1fr 1fr 15em;
+        gap: 3em;
+    }
+    
     .contact-information {
         padding: 5em;
     }
